@@ -1,0 +1,40 @@
+body{
+   background-color: rgb(236, 237, 238);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+label,p,h3{
+    color: black;
+}
+.newcnt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form{
+    margin-top: 100px;
+}
+.btn{
+    padding: 10px;
+    color: white;
+    width: 120px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(5, 56, 185);
+}
+.btn:hover{
+    background-color: rgb(3, 23, 74);
+    color: white;
+}
+input{
+    padding:10px
+}
+.cnt2{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
